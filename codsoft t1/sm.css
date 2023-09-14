@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    color:goldenrod;
+    background-color: black;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 68px;
+
+}
+
+.yo a{
+    text-decoration: none;
+    color:white;
+    margin:7px;
+    padding: 10px;
+    font-size:21px;
+}
+.yo a:hover{
+    background: red;
+    transition: 0.3s linear;
+    border-radius: 6px;
+
+}
+.styles1{
+    height:50px;
+}
+.styles2{
+    height:150px;
+}
+.sbox{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:start;
+    margin:40px 0px;
+
+}
+#mew {
+    height:38px;
+    width:10rem;
+    font-size:20px;
+    border-radius: 4cm;
+    margin:40px 0px 4px 25px;
+}
+#mew a{
+     text-decoration: none;
+     color:white;
+     height:100%;
+     width:100%;
+     background-color: red;
+     padding:1rem;
+     border-radius: 4cm;
+
+}
+.styles3 {
+    color: whitesmoke;
+    font-size:2em;
+    margin:20px 0px 40px 0px;
+    width:64%;
+}
+.b1{
+   height:0.4rem;
+   width:1rem;
+   background-color: goldenrod;
+   margin:5px 0px 10px 30px;
+}
+.b2{
+    height:0.35rem;
+    width:5rem;
+    background-color: goldenrod;
+    margin:5px 0px 10px 30px;
+
+ }
+ .b3{
+    height:0.3rem;
+    width:10rem;
+    background-color: goldenrod;
+    margin:5px 0px 10px 30px;
+
+ }
+.nameofc{
+    display:inline-block;
+}
+.styles4{
+    position: absolute;
+    left:68%;
+    top:30%;
+    height:60%;
+    width:50%;
+
+}
+p{
+    margin-left: 7px;
+    margin-right: 2px;
+}
+.styles4 img{
+    height:80%;
+    width:50%;
+
+}
+.styles3 p,h1{
+    margin-bottom:4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    nav {
+        padding: 0px 20px; 
+    }
+
+    .yo a {
+        font-size: 18px; 
+        margin: 5px; 
+        padding: 8px; 
+    }
+
+    .styles1, .styles2 {
+        height: 30px; 
+    }
+
+    .sbox {
+        height: auto; 
+        margin: 20px 0; 
+        padding: 20px;
+        width:50%;
+        font-size:0.85rem;
+    }
+
+    .styles3 {
+        width: 90%; 
+    }
+
+    .b1, .b2, .b3 {
+        margin: 5px 0 8px 10px; 
+    }
+
+    .styles4 {
+        left:55%; 
+        top: 25%; 
+        height:70%;
+        width:60%;
+    }
+
+    .styles4 img{
+         max-width:100%;
+         height:50%;
+         width:80%;
+         padding:10px;
+    }
+    .styles3 p,h1{
+        margin-bottom:14px;
+    }
+}
